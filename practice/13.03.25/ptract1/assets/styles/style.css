@@ -1,0 +1,33 @@
+
+.main-list {
+    list-style: none;
+}
+
+.winter{
+    padding-left: 17px;
+}
+
+.winter li{
+    display: flex;
+    align-items: center;
+}
+
+.winter li::before{
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background-image: url(/practice/13.03.25/ptract1/assets/icons/winter_16.png);
+}
+
+.spring{
+    list-style: url("/practice/13.03.25/ptract1/assets/icons/spring_16.png");
+    vertical-align: middle;
+}
+.summer{
+    list-style: url("/practice/13.03.25/ptract1/assets/icons/summer_16.png");
+    vertical-align: middle;
+}
+.autumn{
+    list-style: url("/practice/13.03.25/ptract1/assets/icons/autumn_16.png");
+    vertical-align: middle;
+}

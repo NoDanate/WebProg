@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0;
+}
+
+main{
+    background-color: wheat;
+    padding: 0px 20px 0px 20px;
+}
+
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    margin-top: 0px;
+}
+
+.first, .second{
+    color: crimson;
+}
+
+.third-header{
+    color: chocolate;
+}
