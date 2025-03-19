@@ -1,0 +1,44 @@
+body{
+    margin-right: 10px;
+    padding: 0;
+}
+
+main{
+
+    background-color: #ed9eae;
+    padding:  20px 0px;
+}
+
+ol{
+    display: flex;
+    margin: 0px 0px 0px 30px;
+    padding: 0;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    counter-reset: list-counter;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    counter-increment: list-counter;
+    color: white;
+    background-color: #c66376;
+    margin-right: 30px;
+}
+
+li::before{
+    content: counter(list-counter)". ";
+    background-color: #c66376;
+    padding: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+span{
+    padding: 10px 20px;
+    background-color: #9e354a;
+}

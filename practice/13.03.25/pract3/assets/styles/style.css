@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+
+    background-color: #9e354a;
+    padding:  20px 15px;
+}
+
+ol{
+    margin: 0px 0px 0px 40px;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
