@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.three-blocks{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.block{
+    width: 150px;
+    margin: 20px;
+    background-color: darksalmon;
+    border-radius: 50%;
+    padding: 10px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+section:nth-child(odd){
+    background-color: cornsilk;
+}
+
+.phone-border{
+    margin: 0;
+    padding: 0;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    height: 450px;
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    align-items: center;
+}
+
+.camera{
+    margin-top: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.poloska{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dinamic{
+    margin-top: 12px;
+    height: 5px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.circle{
+    margin-top: 12px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.inner-block{
+    margin: 10px 10px 0px 10px;
+    width: 220px;
+    height: 350px;
+    border: 3px solid black;
+    background-color: aquamarine;
+}
+
+.main-button{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
