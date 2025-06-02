@@ -1,0 +1,11 @@
+.formule{
+    text-align: center;
+    padding: auto;
+}
+main{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p{
+    margin-left: 5px;
+}
