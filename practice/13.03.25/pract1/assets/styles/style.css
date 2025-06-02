@@ -1,6 +1,7 @@
 
 .main-list {
     list-style: none;
+    padding-right: 40px ;
 }
 
 .winter{
@@ -16,18 +17,54 @@
     content: "";
     width: 1rem;
     height: 1rem;
-    background-image: url(/practice/13.03.25/ptract1/assets/icons/winter_16.png);
+    background-image: url("/practice/13.03.25/pract1/assets/icons/winter_16.png");
 }
 
 .spring{
-    list-style: url("/practice/13.03.25/ptract1/assets/icons/spring_16.png");
-    vertical-align: middle;
+    list-style: url("/practice/13.03.25/pract1/assets/icons/spring_16.png");
 }
+
 .summer{
-    list-style: url("/practice/13.03.25/ptract1/assets/icons/summer_16.png");
-    vertical-align: middle;
+    list-style: url("/practice/13.03.25/pract1/assets/icons/summer_16.png");
 }
+
 .autumn{
-    list-style: url("/practice/13.03.25/ptract1/assets/icons/autumn_16.png");
-    vertical-align: middle;
+    list-style: url("/practice/13.03.25/pract1/assets/icons/autumn_16.png");
+}
+
+h3{
+    width: 700px;
+    margin: 0;
+    margin: 0px 40px;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(154, 154, 154);
+}
+
+.white{
+    background-color: beige;
+    width: 50%;
+}
+
+.green{
+    color: white;
+    background-color: olive;
+}
+
+.brown{
+    color: white;
+    background-color: brown;
+}
+.orange{
+    color: white;
+    background-color: orange
+}
+
+li{
+    padding-left: 5px;
 }
