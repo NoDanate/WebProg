@@ -1,0 +1,432 @@
+body{
+    width: 1920px;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    position: relative;
+    top: 81px;
+}
+
+header{
+    position:fixed;
+    height: 81px;
+    width: 1920px;
+    z-index: 999;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+    align-items: center;
+}
+
+.email{
+    color:white;
+}
+.header-list ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.purchase{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 207px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #FF7143;
+    border-style: none;
+}
+
+.containerr{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.cont-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 81px;
+}
+
+.sec-1{
+    background-color: #FF7143;
+
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    width: 1280px;
+    height: 732px;
+    margin: 0 auto;
+}
+
+.main-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-page-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 0;
+    width: 632px;
+    height: 532px;
+    justify-content: center;
+}
+
+.main-page-info h1{
+    margin:0;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 27px;
+}
+
+.main-page-info p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: center;
+    margin:0;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+}
+
+.two-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+
+.button-black{
+    width: 226px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border-style: none;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.button-white{
+    width: 208px;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    border-style: none;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-page-pic{
+    position: relative;
+    height: 860px;
+    top: -128px;
+}
+
+.main-page-pic img{
+    width: 417px;
+}
+
+
+/*  Вторая секция */
+
+.SDM{
+    padding: 80px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+
+.SDM-speed, .SDM-design, .SDM-modularity{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+}
+
+figure{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+
+}
+
+.pink-square{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #FDE7DA;
+    justify-content: center;
+}
+
+.pink-square img{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    
+
+}
+
+.SDM-speed article h1, .SDM-design article h1, .SDM-modularity article h1{
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-bottom: 13px;
+}
+
+.SDM-speed article p, .SDM-design article p, .SDM-modularity article p{
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+
+/*  Третья секция */
+
+.sec-3{
+    background-color: black;
+    color: white;
+
+}
+
+.druk{
+    padding: 100px 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.druk-main-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0;
+}
+
+.druk-main-text p{
+    margin:0;
+}
+
+.druk-credits p{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.opacity70{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFFB2;
+}
+
+/*  Четвертая секция */
+
+.sec-4{
+    height: 1192px;
+}
+
+.landing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.landing h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0;
+    margin:0;
+    margin-bottom: 25px;
+}
+
+.grid-div{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-bottom: 100px;
+}
+
+.grid-div li{
+    border-radius:6px;
+    border: 1px solid #00000029;
+    width: 416px;
+    height: 452px;
+}
+
+.grid-photo{
+    display: flex;
+    background-color: black;
+    width: 414px;
+    height: 374px;
+    justify-content: center;
+    align-items: end;
+}
+
+.grid-photo img{
+    width: 334px;
+    height: 334px;
+};
+
+.grid-text{
+    display: flex;
+    background-color: orange;
+}
+
+/*  Подвал */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 334px;
+}
+
+.logo-button{
+    width: 1280px;
+    height: 176px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-button img{
+    width: 112px;
+    height: 36px
+}
+
+.logo-button button{
+    width: 185px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    height: 76px;
+}
+
+.words{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.words li{
+    line-height: 48px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.grey-square{
+    display: flex;
+    flex-direction: row;
+    width: 48px;
+    height: 48px;
+    background-color: rgb(36, 36, 36);
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-credits{
+    display: flex;
+    flex-direction: row;
+    height: 82px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.madeby{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.madeby img{
+    width: 89px;
+    height: 23px;
+    align-self: center;
+}
