@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+}
+
+.cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.c1{
+    grid-column: 1;
+    width: auto;
+    
+}
+
+.c2{
+    grid-column: 2;
+    width: fit-content;
+}
+
+.c3{
+    grid-column: 3;
+    width: fit-content;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+.e{
+    margin-bottom: 15px;
+    background-color: white;
+    width: fit-content;
+}
